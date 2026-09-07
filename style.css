@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow: hidden;
+    background: #111;
+    font-family: Arial, sans-serif;
+}
+
+
+/* ========================= */
+/* JUEGO */
+/* ========================= */
+
+canvas {
+    display: block;
+    background: #202020;
+}
+
+
+/* ========================= */
+/* HUD */
+/* ========================= */
+
+#hud {
+
+    position: fixed;
+
+    top: 15px;
+    left: 15px;
+
+    color: white;
+
+    font-size: 20px;
+
+    font-weight: bold;
+
+    display: none;
+
+    z-index: 5;
+}
+
+
+/* ========================= */
+/* MENÚ PRINCIPAL */
+/* ========================= */
+
+#menu {
+
+    position: fixed;
+
+    inset: 0;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+
+    background: #111;
+
+    color: white;
+
+    z-index: 10;
+}
+
+
+/* ========================= */
+/* PAUSA */
+/* ========================= */
+
+#pausa {
+
+    position: fixed;
+
+    inset: 0;
+
+    display: none;
+
+    justify-content: center;
+
+    align-items: center;
+
+    background: rgba(0, 0, 0, 0.75);
+
+    color: white;
+
+    z-index: 20;
+}
+
+
+.panel-pausa {
+
+    text-align: center;
+
+    padding: 40px;
+
+    background: #181818;
+
+    border: 2px solid #555;
+
+    border-radius: 15px;
+
+    min-width: 320px;
+}
+
+
+/* ========================= */
+/* GAME OVER */
+/* ========================= */
+
+#gameOver {
+
+    position: fixed;
+
+    inset: 0;
+
+    display: none;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+
+    background: #111;
+
+    color: white;
+
+    z-index: 30;
+}
+
+
+/* ========================= */
+/* TEXTOS */
+/* ========================= */
+
+h1 {
+
+    font-size: 45px;
+
+    margin-bottom: 20px;
+}
+
+p {
+
+    margin: 5px;
+
+    font-size: 18px;
+}
+
+
+/* ========================= */
+/* BOTONES */
+/* ========================= */
+
+button {
+
+    display: block;
+
+    width: 250px;
+
+    margin: 15px auto;
+
+    padding: 15px 25px;
+
+    border: none;
+
+    border-radius: 8px;
+
+    background: #e63946;
+
+    color: white;
+
+    font-size: 18px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+
+button:hover {
+
+    background: #ff4d5a;
+}
